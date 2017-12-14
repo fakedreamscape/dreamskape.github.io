@@ -57,9 +57,9 @@ title                    : "mindbomb"
 title_separator          : "-"
 name                     : "dS"
 description              : "come with me on this journey"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://dreamskape.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : dreamskape/dreamskape.github.com
+repository               : "dreamskape/dreamskape.github.com"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
