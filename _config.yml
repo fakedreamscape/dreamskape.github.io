@@ -1,3 +1,47 @@
+
+Skip to content
+This repository
+
+    Pull requests
+    Issues
+    Marketplace
+    Explore
+
+    @dreamskape
+
+76
+2,780
+
+    5,450
+
+mmistakes/minimal-mistakes
+Code
+Issues 10
+Pull requests 0
+Projects 0
+Insights
+minimal-mistakes/_config.yml
+1ad02b9 2 days ago
+@mmistakes mmistakes Add `author.name`
+@mmistakes
+@ohadschn
+@Pradhyo
+@yihangho
+@LoveMeWithoutAll
+@YuyingWu
+@westes
+@vlajos
+@tony-ho
+@rriemann
+@maxheld83
+@kennonkwok
+@jeremyvoltz
+@thoemmi
+@hbarudin
+@rschaerer
+@gabor-meszaros
+@cdodd
+255 lines (228 sloc) 7.07 KB
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -252,7 +296,18 @@ defaults:
       comments: # true
       share: true
       related: true
-      
-remote_theme: "mmistakes/minimal-mistakes"
-plugins:
-  - jekyll-remote-theme
+
+    © 2017 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Help
+
+    Contact GitHub
+    API
+    Training
+    Shop
+    Blog
+    About
+
