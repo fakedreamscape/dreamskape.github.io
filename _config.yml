@@ -12,7 +12,7 @@ locale                   : "en"
 title                    : "mindbomb"
 title_separator          : "-"
 name                     : "dS"
-description              : "An amazing website."
+description              : "An archive of my thoughts, mostly on how to improve at Overwatch"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -84,9 +84,9 @@ analytics:
 # Site Author
 author:
   name             : "dS"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  avatar           : "/assets/images/avatar.png"
+  bio              : "cool guy lol"
+  location         : "toronto"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
