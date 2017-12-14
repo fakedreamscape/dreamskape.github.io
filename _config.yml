@@ -1,47 +1,3 @@
-
-Skip to content
-This repository
-
-    Pull requests
-    Issues
-    Marketplace
-    Explore
-
-    @dreamskape
-
-76
-2,780
-
-    5,450
-
-mmistakes/minimal-mistakes
-Code
-Issues 10
-Pull requests 0
-Projects 0
-Insights
-minimal-mistakes/_config.yml
-1ad02b9 2 days ago
-@mmistakes mmistakes Add `author.name`
-@mmistakes
-@ohadschn
-@Pradhyo
-@yihangho
-@LoveMeWithoutAll
-@YuyingWu
-@westes
-@vlajos
-@tony-ho
-@rriemann
-@maxheld83
-@kennonkwok
-@jeremyvoltz
-@thoemmi
-@hbarudin
-@rschaerer
-@gabor-meszaros
-@cdodd
-255 lines (228 sloc) 7.07 KB
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -55,7 +11,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en"
 title                    : "Site Title"
 title_separator          : "-"
-name                     : "dS"
+name                     : "Your Name"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -127,7 +83,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "dS"
+  name             : "Your Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
   location         : "Somewhere"
@@ -296,18 +252,3 @@ defaults:
       comments: # true
       share: true
       related: true
-
-    © 2017 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Help
-
-    Contact GitHub
-    API
-    Training
-    Shop
-    Blog
-    About
-
