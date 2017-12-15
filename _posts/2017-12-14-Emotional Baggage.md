@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Don't feed the troll.
 
@@ -20,9 +20,3 @@ Just remember, that person that is trolling is a variable that can't be controll
 In later posts, I will be going into each concept about emotions, how to approach games, and concepts adopted from poker that I think will help anyone who reads and applies them. 
 
 dS
-
-
-
-
-
-
