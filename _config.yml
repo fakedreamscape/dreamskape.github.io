@@ -20,36 +20,37 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : true
+  provider               : "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman_v2", "staticman" "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            :
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : 5
-    colorscheme          : "light"
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
+  allowedFields          : # ['name', 'email', 'url', 'message']
   branch                 : "master"
-  commitMessage          : "New comment"
-  filename               : comment-{@timestamp}
-  format                 : "yaml"
-  moderation             : false
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  reCaptcha:
+  commitMessage          : # "New comment"
+  filename               : # comment-{@timestamp}
+  format                 : # "yml"
+  moderation             : # true
+  path                   : # "_data/comments/{options.slug}"
+  requiredFields         : # ['name', 'email', 'message']
+  transforms:
+    email                : # "md5"
+  generatedFields:
+    date:
+      type               : # "date"
+      options:
+format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+reCaptcha:
     enabled              : true
     siteKey              : "6LdRBykTAAAAAFB46MnIu6ixuxwu9W1ihFF8G60Q"
     secret               : "C592Ntpc8We99GkNx7AjIwd1Jl9nGNGLEaCV5uhyLbOkfR5m/p+0n89cwXXDYVezBtqrPxCFxVHmC9J6TBxUOUEYBUAP+/6z8yTOoqREETPpq9It4lSKlnRGBOeOv1gI4Ba1OKim/ROkJneTqy1M1yFFKSl0XbnrLOvjmjKs3Fw="
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+    
 atom_feed:
   path                   : 
 search                   : true # true, false (default)
