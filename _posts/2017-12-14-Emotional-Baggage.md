@@ -1,6 +1,6 @@
 ---
 read_time: true
-comments: "staticman"
+comments: true
 share: true
 related: true
 categories:
