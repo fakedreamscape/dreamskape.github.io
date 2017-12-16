@@ -1,6 +1,23 @@
 ---
+title: "Emotional Baggage"
+read_time: true
+comments: true
+share: true
+related: true
+categories:
+  - Improvement
+  - Uncategorized
+tags:
+  - related posts
+  - Improvement
+  - Emotions
+  - Tilt
+  - Foundation
 published: true
 ---
+
+
+
 ## Don't feed the troll.
 
 There was someone on my team today who was insulting the team and intentionally attempted to lose the game. This person was extremely upset over a loss they just had, which seems to be typical in online games. Except, these types of reactions are detrimental, if we just had a loss that made us like this, and we went into the next game that agitated, we're probably going to lose again. It creates a snowball effect of negativity and poor, emotionally driven play. As a team, we did not acknowledge the troll and played as a team of 5. After successfully working together and managing to win a couple fights and push an objective, the angry player was not agitated anymore and joined us as a teammate. The tactics illustrated in the post will not only help us stay calm and enjoy games more but also win and improve.
