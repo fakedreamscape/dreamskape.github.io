@@ -4,9 +4,6 @@ read_time: true
 comments: true
 share: true
 related: true
-categories:
-  - Improvement
-  - Uncategorized
 tags:
   - related posts
   - Improvement
