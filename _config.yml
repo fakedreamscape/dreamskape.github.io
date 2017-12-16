@@ -28,8 +28,8 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    num_posts            : 5
+    colorscheme          : "light"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "master"
@@ -39,7 +39,7 @@ staticman:
   moderation             : false
   path                   : "_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
-  reCaptcha              :
+  reCaptcha:
     enabled              : true
     siteKey              : "6LdRBykTAAAAAFB46MnIu6ixuxwu9W1ihFF8G60Q"
     secret               : "C592Ntpc8We99GkNx7AjIwd1Jl9nGNGLEaCV5uhyLbOkfR5m/p+0n89cwXXDYVezBtqrPxCFxVHmC9J6TBxUOUEYBUAP+/6z8yTOoqREETPpq9It4lSKlnRGBOeOv1gI4Ba1OKim/ROkJneTqy1M1yFFKSl0XbnrLOvjmjKs3Fw="
@@ -51,7 +51,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  path                   : # blank (default) uses feed.xml
+  path                   : 
 search                   : true # true, false (default)
 
 # SEO Related
